@@ -17,12 +17,11 @@ body {
 
 .header h1 {
     font-size: 48px;
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 .header-position {
     font-size: 24px;
-    font-style: normal;
     margin: 0 0 10px 10px;
 }
 
@@ -41,7 +40,7 @@ body {
 
 .summary {
     font-size: 12px;
-    margin: 10px 0 0 0;
+    margin: 10px 0 0;
     line-height: 1.5;
 }
 
@@ -51,16 +50,16 @@ body {
 }
 
 .dates {
-    font-weight: normal;
     font-size: 11px;
     color: #666;
+    font-weight: normal;
 }
 
 .container h3 {
     font-size: 18px;
-    margin: 0 0 0 0;
+    margin: 0 0 6px 0;
     border-bottom: 2px solid black;
-    padding 0;
+    padding: 0;
 }
 
 .experience {
@@ -79,54 +78,49 @@ body {
     margin-bottom: 25px;
 }
 
-.right-key {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #000;
+.experience-item .company {
+    margin-left: 0;
+}
+
+.company strong {
+    display: block;
+    font-size: 16px;
 }
 
 .position {
+    font-weight: bold;
     font-style: italic;
-    margin-bottom: 10px;
+    margin: 5px 0 5px 0;
 }
 
 .section-title {
     font-weight: bold;
-    font-size: 16px;
-    margin: 15px 0 5px 0;
-    color: #333;
+    margin: 5px 0 5px;
 }
 
 .responsibilities, .achievements {
     list-style-type: square;
-    margin-left: 15px;
+    margin: 0 0 10px 15px;
     padding-left: 15px;
-    margin-bottom: 10px;
     font-size: 12px;
 }
 
 .experience-item b {
     display: block;
-    margin-top: 10px;
-    margin-bottom: 3px;
+    margin: 10px 0 3px;
 }
 
 .experience-item div {
     margin-left: 10px;
-    font-size: 13px;
-    color: #333;
 }
 
 .right-side {
     flex: 0 0 30%;
     display: flex;
-    margin 0;
+    flex-direction: column;
     gap: 10px;
     padding: 10px;
-    flex-direction: column;
+    margin: 0;
     font-size: 12px;
 }
 
@@ -142,13 +136,13 @@ body {
 
 .edu-item em {
     display: block;
-    margin: 3px 0 5px 0;
+    margin: 3px 0 5px;
     font-style: italic;
 }
 
 .courses {
     list-style: none;
-    padding-left: 0;
+    padding: 0;
     margin: 0;
 }
 
