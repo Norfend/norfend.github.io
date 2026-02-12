@@ -1,0 +1,157 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    padding: 10mm;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.header-position {
+    font-size: 24px;
+    margin: 0 0 10px 10px;
+}
+
+.contacts {
+    display: flex;
+    gap: 5px;
+    font-style: normal;
+    margin: 0 0 10px 0;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.summary {
+    font-size: 12px;
+    margin: 10px 0 0;
+    line-height: 1.5;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.dates {
+    font-size: 11px;
+    color: #666;
+    font-weight: normal;
+}
+
+.container h3 {
+    font-size: 18px;
+    margin: 0 0 6px 0;
+    border-bottom: 2px solid black;
+    padding: 0;
+}
+
+.experience {
+    flex: 0 0 70%;
+    padding: 10px;
+    border-right: 1px solid black;
+}
+
+.experience-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.experience-item {
+    margin-bottom: 25px;
+}
+
+.experience-item .company {
+    margin-left: 0;
+}
+
+.company strong {
+    display: block;
+    font-size: 16px;
+}
+
+.position {
+    font-weight: bold;
+    font-style: italic;
+    margin: 5px 0 5px 0;
+}
+
+.section-title {
+    font-weight: bold;
+    margin: 5px 0 5px;
+}
+
+.responsibilities, .achievements {
+    list-style-type: square;
+    margin: 0 0 10px 15px;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+.experience-item b {
+    display: block;
+    margin: 10px 0 3px;
+}
+
+.experience-item div {
+    margin-left: 10px;
+}
+
+.right-side {
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    margin: 0;
+    font-size: 12px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.edu-item {
+    font-size: 12px;
+}
+
+.edu-item em {
+    display: block;
+    margin: 3px 0 5px;
+    font-style: italic;
+}
+
+.courses {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.courses li {
+    margin-bottom: 3px;
+}
+
+.hobby p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.4;
+}
