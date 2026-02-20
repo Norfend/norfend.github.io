@@ -11,7 +11,7 @@ body {
     width: 210mm;
     min-height: 297mm;
     margin: 0 auto;
-    padding: 10mm;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -75,7 +75,7 @@ body {
 }
 
 .experience-item {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .experience-item .company {
@@ -88,7 +88,6 @@ body {
 }
 
 .position {
-    font-weight: bold;
     font-style: italic;
     margin: 5px 0 5px 0;
 }
